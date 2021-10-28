@@ -41,7 +41,7 @@ dependencies {
     implementation("androidx.core:core-ktx:${Versions.Android.androidXcore}")
 
     listOf(
-            project(":allure-kotlin-android"),
+            project(":allure-kotlin-android-without-broken"),
             "androidx.test.ext:junit:${Versions.Android.Test.junit}",
             "androidx.test:runner:${Versions.Android.Test.runner}",
             "junit:junit:${Versions.junit4}",

@@ -1,5 +1,5 @@
 description = "Allure Kotlin Commons Test Utils"
 
 dependencies {
-    api(project(":allure-kotlin-commons"))
+    api(project(":allure-kotlin-commons-without-broken"))
 }

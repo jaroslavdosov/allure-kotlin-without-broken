@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-    api(project(":allure-kotlin-junit4"))
+    api(project(":allure-kotlin-junit4-without-broken"))
     implementation(kotlin("stdlib-jdk7"))
     implementation("androidx.test.ext:junit:${Versions.Android.Test.junit}")
     implementation("androidx.test:runner:${Versions.Android.Test.runner}")

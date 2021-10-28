@@ -1,7 +1,7 @@
 description = "Allure Kotlin Commons"
 
 dependencies {
-    api(project(":allure-kotlin-model"))
+    api(project(":allure-kotlin-model-without-broken"))
     implementation(kotlin("reflect"))
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:${Versions.kotlinxSerialization}")
     testImplementation("io.github.benas:random-beans:${Versions.randomBeans}")
